@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="F2I-Wq-Lvs">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JKScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nQe-WF-ENh">
+                                <rect key="frame" x="0.0" y="64" width="600" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="sCValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kzb-ST-XbX"/>
+                                </connections>
+                            </segmentedControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zaw-QP-Zfe">
+                                <rect key="frame" x="0.0" y="92" width="600" height="508"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zaw-QP-Zfe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="BhD-m8-CJ9"/>
+                            <constraint firstItem="nQe-WF-ENh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FqE-YV-tQr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zaw-QP-Zfe" secondAttribute="bottom" id="WMs-HL-e8T"/>
+                            <constraint firstItem="Zaw-QP-Zfe" firstAttribute="top" secondItem="nQe-WF-ENh" secondAttribute="bottom" id="aQt-M2-tEU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nQe-WF-ENh" secondAttribute="trailing" constant="-20" id="bPR-HH-BUy"/>
+                            <constraint firstItem="Zaw-QP-Zfe" firstAttribute="top" secondItem="nQe-WF-ENh" secondAttribute="bottom" id="o70-Gb-6Wn"/>
+                            <constraint firstItem="nQe-WF-ENh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="pI9-Jo-8C5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zaw-QP-Zfe" secondAttribute="trailing" constant="-20" id="uMI-ch-JVT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NhI-M0-ahm"/>
+                    <connections>
+                        <outlet property="scrollView" destination="Zaw-QP-Zfe" id="xhv-FH-EbU"/>
+                        <outlet property="segmentedControl" destination="nQe-WF-ENh" id="MSd-gD-rXe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="-428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zkA-9s-12g">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F2I-Wq-Lvs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="STk-Zh-sJF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rhG-3K-j68"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8AY-4z-RKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="265" y="-428"/>
+        </scene>
+    </scenes>
+</document>

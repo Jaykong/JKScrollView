@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93651CE1C7EC1BF0057F784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93651CD1C7EC1BF0057F784 /* AppDelegate.swift */; };
+		A93651D01C7EC1C00057F784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93651CF1C7EC1C00057F784 /* ViewController.swift */; };
+		A93651D31C7EC1C00057F784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93651D11C7EC1C00057F784 /* Main.storyboard */; };
+		A93651D61C7EC1C00057F784 /* JKScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A93651D41C7EC1C00057F784 /* JKScrollView.xcdatamodeld */; };
+		A93651D81C7EC1C00057F784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93651D71C7EC1C00057F784 /* Assets.xcassets */; };
+		A93651DB1C7EC1C00057F784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93651D91C7EC1C00057F784 /* LaunchScreen.storyboard */; };
+		A93651E61C7EC1C00057F784 /* JKScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93651E51C7EC1C00057F784 /* JKScrollViewTests.swift */; };
+		A93651F11C7EC1C00057F784 /* JKScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93651F01C7EC1C00057F784 /* JKScrollViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93651E21C7EC1C00057F784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93651C21C7EC1BF0057F784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93651C91C7EC1BF0057F784;
+			remoteInfo = JKScrollView;
+		};
+		A93651ED1C7EC1C00057F784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93651C21C7EC1BF0057F784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93651C91C7EC1BF0057F784;
+			remoteInfo = JKScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A93651CA1C7EC1BF0057F784 /* JKScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93651CD1C7EC1BF0057F784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A93651CF1C7EC1C00057F784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A93651D21C7EC1C00057F784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93651D51C7EC1C00057F784 /* JKScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JKScrollView.xcdatamodel; sourceTree = "<group>"; };
+		A93651D71C7EC1C00057F784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93651DA1C7EC1C00057F784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93651DC1C7EC1C00057F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93651E11C7EC1C00057F784 /* JKScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93651E51C7EC1C00057F784 /* JKScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKScrollViewTests.swift; sourceTree = "<group>"; };
+		A93651E71C7EC1C00057F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93651EC1C7EC1C00057F784 /* JKScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93651F01C7EC1C00057F784 /* JKScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKScrollViewUITests.swift; sourceTree = "<group>"; };
+		A93651F21C7EC1C00057F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93651C71C7EC1BF0057F784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93651DE1C7EC1C00057F784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93651E91C7EC1C00057F784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93651C11C7EC1BF0057F784 = {
+			isa = PBXGroup;
+			children = (
+				A93651CC1C7EC1BF0057F784 /* JKScrollView */,
+				A93651E41C7EC1C00057F784 /* JKScrollViewTests */,
+				A93651EF1C7EC1C00057F784 /* JKScrollViewUITests */,
+				A93651CB1C7EC1BF0057F784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93651CB1C7EC1BF0057F784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93651CA1C7EC1BF0057F784 /* JKScrollView.app */,
+				A93651E11C7EC1C00057F784 /* JKScrollViewTests.xctest */,
+				A93651EC1C7EC1C00057F784 /* JKScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93651CC1C7EC1BF0057F784 /* JKScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A93651CD1C7EC1BF0057F784 /* AppDelegate.swift */,
+				A93651CF1C7EC1C00057F784 /* ViewController.swift */,
+				A93651D11C7EC1C00057F784 /* Main.storyboard */,
+				A93651D71C7EC1C00057F784 /* Assets.xcassets */,
+				A93651D91C7EC1C00057F784 /* LaunchScreen.storyboard */,
+				A93651DC1C7EC1C00057F784 /* Info.plist */,
+				A93651D41C7EC1C00057F784 /* JKScrollView.xcdatamodeld */,
+			);
+			path = JKScrollView;
+			sourceTree = "<group>";
+		};
+		A93651E41C7EC1C00057F784 /* JKScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A93651E51C7EC1C00057F784 /* JKScrollViewTests.swift */,
+				A93651E71C7EC1C00057F784 /* Info.plist */,
+			);
+			path = JKScrollViewTests;
+			sourceTree = "<group>";
+		};
+		A93651EF1C7EC1C00057F784 /* JKScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A93651F01C7EC1C00057F784 /* JKScrollViewUITests.swift */,
+				A93651F21C7EC1C00057F784 /* Info.plist */,
+			);
+			path = JKScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93651C91C7EC1BF0057F784 /* JKScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93651F51C7EC1C00057F784 /* Build configuration list for PBXNativeTarget "JKScrollView" */;
+			buildPhases = (
+				A93651C61C7EC1BF0057F784 /* Sources */,
+				A93651C71C7EC1BF0057F784 /* Frameworks */,
+				A93651C81C7EC1BF0057F784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKScrollView;
+			productName = JKScrollView;
+			productReference = A93651CA1C7EC1BF0057F784 /* JKScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93651E01C7EC1C00057F784 /* JKScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93651F81C7EC1C00057F784 /* Build configuration list for PBXNativeTarget "JKScrollViewTests" */;
+			buildPhases = (
+				A93651DD1C7EC1C00057F784 /* Sources */,
+				A93651DE1C7EC1C00057F784 /* Frameworks */,
+				A93651DF1C7EC1C00057F784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93651E31C7EC1C00057F784 /* PBXTargetDependency */,
+			);
+			name = JKScrollViewTests;
+			productName = JKScrollViewTests;
+			productReference = A93651E11C7EC1C00057F784 /* JKScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A93651EB1C7EC1C00057F784 /* JKScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93651FB1C7EC1C00057F784 /* Build configuration list for PBXNativeTarget "JKScrollViewUITests" */;
+			buildPhases = (
+				A93651E81C7EC1C00057F784 /* Sources */,
+				A93651E91C7EC1C00057F784 /* Frameworks */,
+				A93651EA1C7EC1C00057F784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93651EE1C7EC1C00057F784 /* PBXTargetDependency */,
+			);
+			name = JKScrollViewUITests;
+			productName = JKScrollViewUITests;
+			productReference = A93651EC1C7EC1C00057F784 /* JKScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93651C21C7EC1BF0057F784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trainer;
+				TargetAttributes = {
+					A93651C91C7EC1BF0057F784 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A93651E01C7EC1C00057F784 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A93651C91C7EC1BF0057F784;
+					};
+					A93651EB1C7EC1C00057F784 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A93651C91C7EC1BF0057F784;
+					};
+				};
+			};
+			buildConfigurationList = A93651C51C7EC1BF0057F784 /* Build configuration list for PBXProject "JKScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93651C11C7EC1BF0057F784;
+			productRefGroup = A93651CB1C7EC1BF0057F784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93651C91C7EC1BF0057F784 /* JKScrollView */,
+				A93651E01C7EC1C00057F784 /* JKScrollViewTests */,
+				A93651EB1C7EC1C00057F784 /* JKScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93651C81C7EC1BF0057F784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93651DB1C7EC1C00057F784 /* LaunchScreen.storyboard in Resources */,
+				A93651D81C7EC1C00057F784 /* Assets.xcassets in Resources */,
+				A93651D31C7EC1C00057F784 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93651DF1C7EC1C00057F784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93651EA1C7EC1C00057F784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93651C61C7EC1BF0057F784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93651D01C7EC1C00057F784 /* ViewController.swift in Sources */,
+				A93651D61C7EC1C00057F784 /* JKScrollView.xcdatamodeld in Sources */,
+				A93651CE1C7EC1BF0057F784 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93651DD1C7EC1C00057F784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93651E61C7EC1C00057F784 /* JKScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93651E81C7EC1C00057F784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93651F11C7EC1C00057F784 /* JKScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A93651E31C7EC1C00057F784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93651C91C7EC1BF0057F784 /* JKScrollView */;
+			targetProxy = A93651E21C7EC1C00057F784 /* PBXContainerItemProxy */;
+		};
+		A93651EE1C7EC1C00057F784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93651C91C7EC1BF0057F784 /* JKScrollView */;
+			targetProxy = A93651ED1C7EC1C00057F784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A93651D11C7EC1C00057F784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93651D21C7EC1C00057F784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93651D91C7EC1C00057F784 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93651DA1C7EC1C00057F784 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93651F31C7EC1C00057F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93651F41C7EC1C00057F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93651F61C7EC1C00057F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A93651F71C7EC1C00057F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A93651F91C7EC1C00057F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKScrollView.app/JKScrollView";
+			};
+			name = Debug;
+		};
+		A93651FA1C7EC1C00057F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKScrollView.app/JKScrollView";
+			};
+			name = Release;
+		};
+		A93651FC1C7EC1C00057F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A93651FD1C7EC1C00057F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niat.JKScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93651C51C7EC1BF0057F784 /* Build configuration list for PBXProject "JKScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93651F31C7EC1C00057F784 /* Debug */,
+				A93651F41C7EC1C00057F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93651F51C7EC1C00057F784 /* Build configuration list for PBXNativeTarget "JKScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93651F61C7EC1C00057F784 /* Debug */,
+				A93651F71C7EC1C00057F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A93651F81C7EC1C00057F784 /* Build configuration list for PBXNativeTarget "JKScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93651F91C7EC1C00057F784 /* Debug */,
+				A93651FA1C7EC1C00057F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A93651FB1C7EC1C00057F784 /* Build configuration list for PBXNativeTarget "JKScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93651FC1C7EC1C00057F784 /* Debug */,
+				A93651FD1C7EC1C00057F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A93651D41C7EC1C00057F784 /* JKScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A93651D51C7EC1C00057F784 /* JKScrollView.xcdatamodel */,
+			);
+			currentVersion = A93651D51C7EC1C00057F784 /* JKScrollView.xcdatamodel */;
+			path = JKScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A93651C21C7EC1BF0057F784 /* Project object */;
+}
