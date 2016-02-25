@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+let width = UIScreen.mainScreen().bounds.size.width
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
     override func viewDidLoad() {
@@ -23,8 +23,37 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     let realPapers = ["2015真题","2014真题","2013真题","2012真题","2011真题"]
     let simulatePapers = ["2015模拟题","2014模拟题","2013模拟题","2012模拟题"]
     let praticePapers = ["2015练习题","2014练习题","2013练习题"]
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        let scrollViewConstentOffset = scrollView.contentOffset.x
+        
+        
+        if scrollViewConstentOffset == 0 {
+            segmentedControl.selectedSegmentIndex = 0
+        }
+        
+        if scrollViewConstentOffset == width {
+            segmentedControl.selectedSegmentIndex = 1
+        }
+        
+        if scrollViewConstentOffset == 2 * width {
+            segmentedControl.selectedSegmentIndex = 2
+        }
     
+    
+    }
     @IBAction func sCValueChanged(sender: AnyObject) {
+        let segControl = sender as! UISegmentedControl
+        if segControl.selectedSegmentIndex == 0 {
+            scrollView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
+        }
+        if segControl.selectedSegmentIndex == 1 {
+            scrollView.setContentOffset(CGPoint(x: width, y: 0), animated: true)
+        }
+        
+        if segControl.selectedSegmentIndex == 2 {
+            scrollView.setContentOffset(CGPoint(x: width * 2, y: 0), animated: true)
+        }
+        
     }
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
